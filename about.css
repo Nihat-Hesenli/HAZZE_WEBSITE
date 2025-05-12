@@ -1,0 +1,725 @@
+
+@font-face {
+    font-family: 'Poppins700';
+    src: url(../src/assets/fonts/Poppins/Poppins-SemiBold.ttf);
+
+
+
+
+}
+@font-face {
+    font-family: 'LibreFranklin700';
+    src: url(../src/assets/fonts/Libre-Franklin/static/LibreFranklin-Bold.ttf);
+
+
+
+
+}
+@font-face {
+    font-family: 'LibreFranklin400';
+    src: url(../src/assets/fonts/Libre-Franklin/static/LibreFranklin-Regular.ttf);
+
+
+
+
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 2100px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #191919;
+     
+}
+.abouts_font{
+    color: #e32879;
+}
+.home_font:hover{
+        color: #e32879;
+
+}
+.home_font{
+    color: #ffffff;
+
+}
+.blogs_font:hover{
+        color: #e32879;
+
+}
+.blogs_font{
+    color: #ffffff;
+}
+.gallerys_font:hover{
+        color: #e32879;
+
+}
+
+
+.gallerys_font{
+    color: #ffffff;
+}
+.contacts_font:hover{
+        color: #e32879;
+
+}
+
+
+.contacts_font{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav__left{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: -20px; /* bu satırı ekledik */
+    font-weight: bold;
+    display: flex;
+    font-family:'Poppins700';
+    
+}
+.nav__right{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    display: inline-block;
+    display: flex;
+    gap: 30px;
+    margin-left: 43%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-family:'Poppins700';
+
+}
+.nav__father{
+    display: flex;
+    margin-bottom: 15px;
+}
+.home{
+    color: #e32879;
+}
+.n{
+    color: #e32879;
+}
+.grays_1{
+background: #2a2a2a;
+padding: 50px 0;
+height: 140px;
+width: 100%;
+
+}
+.home_about_1{
+
+    font-size: 1rem;
+    margin-left: 100px;
+    color: #b3b3b3;
+    font-family: 'LibreFranklin400';
+
+}
+.home_about_2{
+    font-size: 50px;
+    color: #5c5c5c;
+    margin-right:5px;
+    margin-left: 5px;
+}
+.home_about_3{
+    color: #5c5c5c;
+    font-weight: 400;
+    font-family: 'LibreFranklin400';
+}
+.home_about{
+  margin-left: 100px;
+  margin-top: -20px;
+}
+
+.home_about_right{
+color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'LibreFranklin700';
+    text-align: right;
+    margin-right: 15%;
+    margin-top: -2%;
+
+
+}
+
+
+
+
+.about_us{
+    margin-right: 50%;
+
+
+
+    }
+.text_1_about{
+
+    margin-right: 65%;
+
+    color: #e32879;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'LibreFranklin700';
+    text-align: left;
+}
+
+.text_1{
+
+    color: #e32879;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'LibreFranklin700';
+    text-align: left;
+
+
+
+
+
+
+}
+.tempor{
+    margin-right: 155px;
+}
+
+
+
+
+
+.text_sub{
+
+     color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-family: 'LibreFranklin700';
+
+
+
+}
+.text_sub_2{
+
+    color: #b3b3b3; 
+    font-size: 16px;
+    font-family: 'LibreFranklin400';
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+
+.ut{
+
+    margin-right: 53%;
+}
+.text{
+margin-left: 200px;
+padding-top: 250px;
+
+
+}
+.black{
+    background: #191919;
+    margin-top: 0;
+    height: 620px;
+}
+
+.photo_1{
+    height: 430px;
+    width: 570px;
+    
+}
+
+.photo_title{
+display: flex;
+gap: 50px;
+justify-content: center;
+align-items: center;
+padding-top: 90px;
+
+}
+.text_sub_2_first{
+    margin-bottom: 12px;
+}
+.ab_count{
+color: #ffffff;
+font-weight: 700;
+margin-bottom: 10px;
+font-size: 36px;
+font-family: 'LibreFranklin700';
+
+
+}
+.Member{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #b3b3b3;
+    font-family: 'LibreFranklin400';
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+.issues{
+    display: flex;
+    gap: 25px;
+}
+
+
+
+
+
+.xt{
+    margin-top: 9px;
+    height: 65px;
+    width: 0.5px;
+    background: #393939;
+    font-family: 'LibreFranklin400';
+    font-size: 1rem;
+
+
+}
+.issue_1{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.black_5{
+    background: #191919;
+    height: 1160px;
+}
+
+.member_1{
+    width: 330;
+    height: 435;
+}
+/*.members{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+margin-top: 60px;
+}
+*/
+.members_2{
+
+}
+.text_1{
+
+    color: #e32879;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'LibreFranklin700';
+    text-align: left;
+    letter-spacing: 2px;
+
+
+
+
+
+}
+
+.member_item_card{
+
+
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8); 
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #191919;
+    height: 400px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    pointer-events: none;
+
+
+
+
+
+  
+}
+.member_item_par{
+
+    
+    font-size: 16px;
+    color: #b3b3b3;
+    font-family: 'LibreFranklin400';
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+
+}
+.jg{
+
+
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'LibreFranklin700';
+    font-weight: 700;
+}
+.dg{
+    font-size: 12px;
+    color: #e32879;
+    font-family: 'LibreFranklin400';
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+
+}
+.member_item:hover .member_item_card{
+display: flex;
+transform: translate(-50%, -50%) scale(1); 
+opacity: 1;
+pointer-events: auto;
+
+    
+}
+
+.member_item{
+    position: relative;
+    display: flex;
+    
+}
+
+.bi-facebook{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #303030;
+    border-radius: 50%;
+    margin-right: 3px;
+
+}
+.bi-twitter{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #303030;
+    border-radius: 50%;
+    margin-right: 3px;
+
+
+}
+.bi-instagram{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #303030;
+    border-radius: 50%;
+    margin-right: 3px;
+
+
+}
+.bi-pinterest{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #303030;
+    border-radius: 50%;
+    margin-right: 3px;
+
+
+}
+.member_item_title{
+
+margin-bottom: 20px;
+}
+.title{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.member_items_1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.member_items_2{
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+
+}
+
+
+.pink_photo{
+    background-image: url(../src/assets/img/pink.jpg);
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pink_text{
+
+
+    font-size: 45px;
+    color: #ffffff;
+    font-family: 'LibreFranklin700';
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.pink_text_2{
+
+color: #ffffff;
+margin-bottom: 45px;
+font-size: 16px;
+font-family: 'LibreFranklin400';
+font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+
+.pink_btn{
+font-size: 16px;
+color: #e32879;
+background:#ffffff ;
+display: inline-block;
+font-weight: 700;
+font-family: 'LibreFranklin700';
+margin-top: 40px;
+padding: 12px 30px 10px;
+}
+.pink_parag_2{
+    text-align: center;
+}
+
+
+
+.black_6{
+    background: #191919;
+    height: 450px;
+
+}
+.sections{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.hazze_text{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    font-weight: bold;
+    font-family:'Poppins700';
+    
+}
+.hazze_text_sub{
+    color: #e32879;
+    margin-top: 10px;
+
+
+
+}
+.hazzes{
+    display: flex;
+}
+
+.hazze_text_par{
+font-size: 16px;
+color: #b3b3b3;
+line-height: 30px;
+font-family: 'LibreFranklin400';
+
+
+
+}
+.hazze_section{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-right: 110px;
+
+    margin-bottom: 50px;
+}
+.usefull_section{
+
+    margin-bottom: 90px;
+    margin-right: 150px;
+
+
+}
+.join_section{
+    margin-right: 150px;
+    margin-bottom: 90px;
+
+
+}
+.insta_section{
+    margin-bottom: 90px;
+
+}
+.joininsta_section{
+
+    display: flex;
+    gap: 10px;
+}
+
+.usefull_section_text{
+font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'LibreFranklin700';
+
+}
+.usefull_section_par{
+font-size: 16px;
+    color: #b3b3b3;
+    line-height: 36px;
+    font-family: 'LibreFranklin400';
+
+}
+.join_section_text{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'LibreFranklin700';
+    margin-bottom: 15px;
+
+
+}
+.join_section_par{
+    font-size: 16px;
+    color: #b3b3b3;
+    line-height: 26px;
+    font-family: 'LibreFranklin400';
+    margin-bottom: 10px;
+
+
+}
+.inputs{
+    font-size: 14px;
+    height: 50px;
+    color: #b3b3b3;
+    border: 1px solid #707070;
+    padding-left: 25px;
+    background: #191919;
+    width: 100%;
+    margin-bottom: 10px;
+
+
+
+
+}
+.buttons{
+    height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    background: #e32879;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+
+
+
+}
+
+.insta_section_text{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'LibreFranklin700';
+    margin-bottom: 15px;
+    margin-bottom: 20px;
+
+
+
+}
+.insta_photo{
+height: 80px;
+width: 80px;
+
+
+}
+.copyright_text{
+    font-size: 16px;
+    color: #b3b3b3;
+    line-height: 26px;
+    font-family: 'LibreFranklin400';
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.bi-suit-heart{
+color: #e32879;
+}

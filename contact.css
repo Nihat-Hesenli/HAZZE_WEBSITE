@@ -1,0 +1,530 @@
+
+@font-face {
+    font-family: 'Poppins700';
+    src: url(../src/assets/fonts/Poppins/Poppins-SemiBold.ttf);
+
+
+
+
+}
+@font-face {
+    font-family: 'LibreFranklin700';
+    src: url(../src/assets/fonts/Libre-Franklin/static/LibreFranklin-Bold.ttf);
+
+
+
+
+}
+@font-face {
+    font-family: 'LibreFranklin400';
+    src: url(../src/assets/fonts/Libre-Franklin/static/LibreFranklin-Regular.ttf);
+
+
+
+
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 2100px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #191919;
+     
+}
+.contacts_font{
+    color: #e32879;
+
+}
+
+.home_font{
+    color: #ffffff;
+}
+.home_font:hover{
+    color: #e32879;
+}
+.abouts_font{
+    color: #ffffff;
+}
+.abouts_font:hover{
+    color: #e32879;
+}
+.blogs_font{
+    color: #ffffff;
+}
+.blogs_font:hover{
+    color: #e32879;
+}
+.gallerys_font{
+    color: #ffffff;
+}
+.gallerys_font:hover{
+    color: #e32879;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav__left{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: -20px; /* bu satırı ekledik */
+    font-weight: bold;
+    display: flex;
+    font-family:'Poppins700';
+    
+}
+.nav__right{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    display: inline-block;
+    display: flex;
+    gap: 30px;
+    margin-left: 43%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-family:'Poppins700';
+
+}
+.nav__father{
+    display: flex;
+    margin-bottom: 15px;
+}
+.gray_3{
+  height: 580px;
+    background: #222222;
+    width: 100%;
+     
+}
+
+
+
+ .contact_text{
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 45px;
+    line-height: 1.2;
+    font-size: 24px;
+    font-family: 'LibreFranklin700';
+
+
+ }
+ .bi-geo-alt{
+
+
+    color: #e32879;
+    font-size: 30px;
+ }
+ .contact_icon{
+
+     width: 74px;
+    height: 74px;
+text-align: center;
+   line-height: 90px;
+    border-radius: 50%;
+    background: #393939;
+    float: left;
+    margin-right: 26px;
+ }
+ .contact_yazi_1{
+font-size:18px;
+color: #b3b3b3;
+line-height: 1.5;
+    font-family: 'LibreFranklin400';
+
+ }
+ .contact_yazi_2{
+     font-size: 18px;
+    color: #ffffff;
+        font-family: 'LibreFranklin400';
+        line-height: 1.5;
+ }
+ .contact_yazis{
+    padding-top: 10px;
+ }
+ .bi-phone{
+ color: #e32879;
+    font-size: 30px;
+
+ }
+.bi-envelope{
+color: #e32879;
+    font-size: 30px;
+
+}
+.contact_cards{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+
+
+
+
+.contact_form_name{
+    box-sizing: border-box;
+}
+.contact_form_email{
+    box-sizing: border-box;
+}
+.contact_form_messagess{
+    box-sizing: border-box;
+}
+
+.names{
+    background: transparent;
+       height: 50px;
+     width: 310px; 
+    font-size: 16px;
+    padding-left: 20px;
+    background: #393939;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+    text-align: left;
+     line-height: 1.5;
+    font-family: 'LibreFranklin400';
+    line-height: inherit;
+   color: #b3b3b3;
+
+
+}
+.emails{
+    background: transparent;
+     height: 50px;
+   width: 310px; 
+    font-size: 16px;
+    padding-left: 20px;
+    background: #393939;
+    margin-bottom: 30px;
+    text-align: left;
+     line-height: 1.5;  
+     font-family: 'LibreFranklin400';
+     line-height: inherit;
+color: #b3b3b3;
+box-sizing: border-box;
+
+}
+.messagess{
+    background: transparent;
+    width: 645px;
+    font-size: 16px;
+    padding-left: 20px;
+    background: #393939;
+    height: 110px;
+    padding-top: 12px;
+    resize: none;
+    margin-bottom: 45px;
+    text-align: left;
+    line-height: 1.5;
+     font-family: 'LibreFranklin400';
+    line-height: inherit;
+    color: #b3b3b3;
+box-sizing: border-box;
+
+
+}
+.site-btn{
+font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 13px 34px;
+    background: #e32879;
+    border: 1px solid #e32879;
+}
+.contact_sections{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* aralarındaki boşluk */
+    padding: 40px;
+    flex-wrap: wrap; /* taşma olursa alt satıra geçsin */
+
+    
+}
+.contact_section_1,
+.contact_section_2{
+
+        flex: 1;
+    min-width: 300px; /* küçük ekranlarda daralmayı önler */
+    max-width: 48%; /* yan yana durabilmeleri için */
+    
+
+   
+}
+.contact_section_1{
+    margin-left: 150px;
+    padding-top: 65px;
+   
+}
+.contact_section_2{
+   margin-right: 350px;
+       padding-top: 70px;
+
+}
+.contact_form_name-email{
+
+    display: flex;
+    gap: 25px;
+}
+
+
+.black_6{
+    background: #191919;
+    height: 450px;
+
+}
+.sections{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.hazze_text{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    font-weight: bold;
+    font-family:'Poppins700';
+    
+}
+.hazze_text_sub{
+    color: #e32879;
+    margin-top: 10px;
+
+
+
+}
+.hazzes{
+    display: flex;
+}
+
+.hazze_text_par{
+font-size: 16px;
+color: #b3b3b3;
+line-height: 30px;
+font-family: 'LibreFranklin400';
+
+
+
+}
+.hazze_section{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-right: 110px;
+
+    margin-bottom: 50px;
+}
+.usefull_section{
+
+    margin-bottom: 90px;
+    margin-right: 150px;
+
+
+}
+.join_section{
+    margin-right: 150px;
+    margin-bottom: 90px;
+
+
+}
+.insta_section{
+    margin-bottom: 90px;
+
+}
+.joininsta_section{
+
+    display: flex;
+    gap: 10px;
+}
+
+.usefull_section_text{
+font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'LibreFranklin700';
+
+}
+.usefull_section_par{
+font-size: 16px;
+    color: #b3b3b3;
+    line-height: 36px;
+    font-family: 'LibreFranklin400';
+
+}
+.join_section_text{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'LibreFranklin700';
+    margin-bottom: 15px;
+
+
+}
+.join_section_par{
+    font-size: 16px;
+    color: #b3b3b3;
+    line-height: 26px;
+    font-family: 'LibreFranklin400';
+    margin-bottom: 10px;
+
+
+}
+.inputs{
+    font-size: 14px;
+    height: 50px;
+    color: #b3b3b3;
+    border: 1px solid #707070;
+    padding-left: 25px;
+    background: #191919;
+    width: 100%;
+    margin-bottom: 10px;
+
+
+
+
+}
+.buttons{
+    height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    background: #e32879;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+
+
+
+}
+
+.insta_section_text{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'LibreFranklin700';
+    margin-bottom: 15px;
+    margin-bottom: 20px;
+
+
+
+}
+.insta_photo{
+height: 80px;
+width: 80px;
+
+
+}
+.copyright_text{
+    font-size: 16px;
+    color: #b3b3b3;
+    line-height: 26px;
+    font-family: 'LibreFranklin400';
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.bi-suit-heart{
+color: #e32879;
+}
+
+
+.bi-facebook{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #303030;
+    border-radius: 50%;
+    margin-right: 3px;
+
+}
+.bi-twitter{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #303030;
+    border-radius: 50%;
+    margin-right: 3px;
+
+
+}
+.bi-instagram{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #303030;
+    border-radius: 50%;
+    margin-right: 3px;
+
+
+}
+.bi-pinterest{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #303030;
+    border-radius: 50%;
+    margin-right: 3px;
+
+
+}
+
+    
