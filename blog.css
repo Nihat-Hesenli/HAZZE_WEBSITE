@@ -33,6 +33,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+        text-decoration: none;
+
 
 }
 .container{
@@ -637,4 +639,182 @@ color: #e32879;
 
 }
 
-    
+
+
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .nav__father {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav__left {
+        margin-left: 0;
+    }
+
+    .nav__right {
+        margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home_about, .home_about_right {
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .home_about_right {
+        margin-right: 5%;
+        margin-top: 10px;
+    }
+
+    .blog_cards,
+    .blog_cards_2,
+    .blog_cards_3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        
+        
+    }
+  
+
+    .pink_card {
+        width: 90%;
+    }
+
+    .blog_text_card {
+        width: 90%;
+    }
+
+    .gray_2 {
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .pink_btn {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .sections {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        gap: 40px;
+    }
+
+    .joininsta_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insta_photos_1,
+    .insta_photos_2 {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+    }
+}
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    .container {
+        padding: 20px;
+    }
+
+    .nav__right {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .home_about {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .home_about_1, .home_about_2, .home_about_3 {
+        display: inline-block;
+    }
+
+    .home_about_right {
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 0;
+    }
+
+   
+    .pink_card {
+        width: 100%;
+    }
+
+    .blog_photo {
+         width: 450px;
+        height: 400px;
+        object-fit: cover;
+
+    }
+
+    .blog_card {
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        height: 700px;
+    }
+    .blog_cards , .blog_cards_2, .blog_cards_3{
+     
+    }
+
+    .author,
+    .author_pink {
+        margin: 0 auto;
+    }
+
+    .pink_btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sections {
+        padding: 30px 15px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .joininsta_section {
+        flex-direction: column;
+    }
+
+    .insta_photos_1,
+    .insta_photos_2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .insta_photo {
+        width: 30%;
+        margin: 5px;
+    }
+
+    .inputs,
+    .buttons {
+        width: 100%;
+    }
+
+    .buttons {
+        padding: 14px;
+    }
+
+    .copyright_text {
+        padding: 0 15px;
+    }
+}
+
+
+
+

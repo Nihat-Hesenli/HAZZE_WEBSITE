@@ -31,17 +31,19 @@
                 <h1 class="n">.</h1>
             </div>
             <div class="nav__right">
-                <a href="index.html"><h4 class="home_font">Home</h4></a>
+                <a href="index.html">
+                    <h4 class="home_font">Home</h4>
+                </a>
                 <a href="about.html">
                     <h4 class="abouts_font">About Us</h4>
                 </a>
                 <a href="blog.html">
                     <h4 class="blogs_font">Blog</h4>
 
-                </a>          
-                
-                
-                  <a href="gallery.html">
+                </a>
+
+
+                <a href="gallery.html">
                     <h4 class="gallerys_font">Gallery</h4>
 
                 </a>
@@ -80,7 +82,7 @@
                 <div class="about_us">
                     <span class="text_1_about">About Us </span>
                     <h2 class="text_sub"> About Story</h2>
-
+                   
                 </div>
 
                 <div class="text_sub_2">
@@ -509,9 +511,10 @@
         </div>
 
         <div class="copyright_text">
-            <p>Copyright ©2025 All rights reserved | This template is made with    <i class="bi bi-suit-heart"></i> by Colorlib </p>
-           
-         
+            <p>Copyright ©2025 All rights reserved | This template is made with <i class="bi bi-suit-heart"></i> by
+                Colorlib </p>
+
+
         </div>
 
 
@@ -523,6 +526,32 @@
 
 
 
+    <script>
+
+            var counters = document.querySelectorAll(".ab_count");
+            var countersQuantity = counters.length;
+            var counter = [];
+
+            for (i = 0; i < countersQuantity; i++) {
+                counter[i] = parseInt(counters[i].innerHTML);
+            }
+
+            var count = function (start, value, id) {
+                var localStart = start;
+                setInterval(function () {
+                    if (localStart < value) {
+                        localStart++;
+                        counters[id].innerHTML = localStart;
+                    }
+                }, 1);
+            }
+
+            for (j = 0; j < countersQuantity; j++) {
+                count(0, counter[j], j);
+            }
+    </script>
 
 
 </body>
+
+</html>

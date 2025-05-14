@@ -33,6 +33,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+        text-decoration: none;
+
 
 }
 .container{
@@ -723,3 +725,263 @@ width: 80px;
 .bi-suit-heart{
 color: #e32879;
 }
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .nav__father {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav__left {
+        margin-left: 0;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .nav__right {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .grays_1 {
+        height: auto;
+        padding: 30px 10px;
+        text-align: center;
+    }
+
+    .home_about {
+        margin: 0;
+    }
+
+    .home_about_1,
+    .home_about_2,
+    .home_about_3 {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .home_about_right {
+        margin: 20px auto 0;
+        text-align: center;
+    }
+
+    .photo_title {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        margin: 20px 0;
+        text-align: left;
+
+    }
+    .text_1_about{
+        font-size: 14px;
+
+    }
+    .text_sub{
+        font-size: 35px;
+    }
+
+
+    .text_sub_2 {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .issues {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .xt {
+        display: none;
+    }
+
+    .black {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .black_5 {
+        height: auto;
+        padding: 60px 10px;
+    }
+
+    .member_items_1,
+    .member_items_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member_1 {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .member_item_card {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .member_item_par p {
+        font-size: 14px;
+    }
+
+    .jg {
+        font-size: 18px;
+    }
+
+    .dg {
+        font-size: 10px;
+    }
+
+    .sosial_m a i {
+        width: 38px;
+        height: 38px;
+        font-size: 14px;
+        line-height: 38px;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+   
+    .pink_photo {
+        height: 470px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .pink_text {
+        font-size: 30px;
+    }
+
+    .pink_text_2 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .pink_btn {
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .pink_text {
+        font-size: 40px;
+    }
+
+    .pink_btn {
+        width: 40%;
+       height: 11%;
+       
+       justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .sections {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 20px;
+    }
+    .black_6{
+
+        height: 1500px;
+    }
+
+    .hazze_section,
+    .usefull_section,
+    .join_section,
+    .insta_section {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .joininsta_section {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .input_button {
+        width: 100%;
+    }
+
+    .inputs,
+    .buttons {
+        width: 100%;
+    }
+
+    .insta_photos_1,
+    .insta_photos_2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .insta_photo {
+        width: 30%;
+        height: auto;
+    }
+
+    .copyright_text {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hazze_text {
+        font-size: 28px;
+    }
+
+    .usefull_section_text,
+    .join_section_text,
+    .insta_section_text {
+        font-size: 18px;
+    }
+
+    .usefull_section_par,
+    .join_section_par {
+        font-size: 14px;
+    }
+
+    .inputs,
+    .buttons {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .insta_photo {
+        width: 30%;
+        height: auto;
+    }
+
+    .copyright_text {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+

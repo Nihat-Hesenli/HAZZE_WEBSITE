@@ -1410,11 +1410,18 @@ color: #e32879;
     }
 
         .portfolio_img_1{
-           width: 600px;
+           width: 485px;
         height: 900px;
 
 
     }
+        .portfolio_img_2,.portfolio_img_3, .portfolio_img_4{
+           width: 485px;
+        height: 400px;
+
+
+    }
+
 
     .text_number {
         font-size: 28px;
@@ -1601,6 +1608,13 @@ color: #e32879;
     .blog_title_1,
     .blog_title_sub {
         text-align: center;
+    }
+    .blog_cards{
+        width: 97%;
+    }
+    .member_1{
+
+        object-fit: cover;
     }
 }
 
