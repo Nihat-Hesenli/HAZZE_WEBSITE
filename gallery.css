@@ -107,7 +107,7 @@
     margin-top: -20px; /* bu satırı ekledik */
     font-weight: bold;
     display: flex;
-    font-family:'Poppins700';
+    font-family: 'LibreFranklin700';
     
 }
 .nav__right{
@@ -120,7 +120,7 @@
     margin-left: 43%;
     margin-bottom: 10px;
     margin-top: -10px;
-    font-family:'Poppins700';
+    font-family: 'LibreFranklin700';
 
 }
 .nav__father{
@@ -195,6 +195,27 @@ color: #ffffff;
     margin-right: 55px;
         color: #e32879;
   }
+  .gcon_2:hover {
+            color: #e32879;
+
+
+  }
+  #img5 {
+  position: relative;
+  top: 0;
+  transition: top 0.3s ease;
+}
+
+#img5.active-up {
+  top: -40px; /* Yukarı taşıma */
+}
+
+
+
+        
+
+
+  
 
   .controls_2{
     display: inline-block;
@@ -211,6 +232,12 @@ color: #ffffff;
 
 
   }
+  .controls_2:hover{
+    color: #e32879;
+
+
+  }
+
   .gallery_controls_2{
 display: flex;
 gap: 10px;
