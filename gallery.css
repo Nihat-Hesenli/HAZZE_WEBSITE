@@ -491,4 +491,182 @@ width: 80px;
 
 }
 
-    
+
+
+
+@media (max-width: 500px) {
+  .container {
+    padding: 20px;
+  }
+
+  .nav__father {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav__left {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .nav__right {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .grays_1 {
+    height: auto;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .home_about {
+    margin-left: 0;
+  }
+
+  .home_about_1,
+  .home_about_2,
+  .home_about_3 {
+    margin-left: 0;
+    display: inline-block;
+  }
+
+  .home_about_right {
+    text-align: center;
+    margin-right: 0;
+    margin-top: 15px;
+  }
+
+  .grays_2 {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+
+
+  .gallery_controls {
+display: flex;
+}
+
+
+.gallery_controls_2 {
+flex-wrap: wrap;  
+
+}
+
+ 
+
+  .all_gallerys_1 , .all_gallerys_2{
+    flex-direction: column;
+  }
+  .gallery_2-3{
+    flex-direction: column;
+  }
+  .gallery_3 , .gallery_2{
+    flex-direction: column;
+  }
+  .gallery_1{
+    flex-direction: column;
+    width: 444px;
+    margin-bottom: 30px; /
+  
+  }
+
+
+
+
+
+
+
+  .all_gallerys img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  
+}
+
+}
+
+
+
+  @media (max-width: 500px) {
+    .sections {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 20px;
+    }
+
+    .hazze_section,
+    .usefull_section,
+    .joininsta_section,
+    .join_section,
+    .insta_section {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .joininsta_section {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .input_button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inputs,
+    .buttons {
+        width: 100%;
+    }
+
+    .insta_photos_1,
+    .insta_photos_2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .insta_photo {
+        width: 30%;
+        height: auto;
+    }
+
+    .sosial_m {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .bi-facebook,
+    .bi-twitter,
+    .bi-instagram,
+    .bi-pinterest {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .copyright_text {
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 22px;
+    }
+
+    .black_6 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .insta_section , .join_section {
+        width: 100%;
+    }
+    .copyright_text{
+        font-size: 15px;
+    }
+}

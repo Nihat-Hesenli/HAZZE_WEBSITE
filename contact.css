@@ -529,4 +529,148 @@ color: #e32879;
 
 }
 
+
+
+@media (max-width: 500px) {
+  .container {
+    padding: 20px;
+  }
+
+  .nav__father {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav__left {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .nav__right {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .gray_3 {
+    height: auto;
+   
+  }
+
+  .contact_sections {
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 140px;
+  }
+  .contact_form{
+
+    width: 430px;
+  }
+  .contact_yazis{
+    flex-direction: column;
+    
+  }
+
+  .contact_section_1,
+  .contact_section_2 {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .contact_form_name-email {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .names,
+  .emails {
+    width: 100%;
+  }
+
+  .messagess {
+    width: 100%;
+  }
+}
+
+
+
+ @media (max-width: 500px) {
+    .sections {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 20px;
+    }
+
+    .hazze_section,
+    .usefull_section,
+    .joininsta_section,
+    .join_section,
+    .insta_section {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .joininsta_section {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .input_button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inputs,
+    .buttons {
+        width: 100%;
+    }
+
+    .insta_photos_1,
+    .insta_photos_2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .insta_photo {
+        width: 30%;
+        height: auto;
+    }
+
+    .sosial_m {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .bi-facebook,
+    .bi-twitter,
+    .bi-instagram,
+    .bi-pinterest {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .copyright_text {
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 22px;
+    }
+
+    .black_6 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .insta_section , .join_section {
+        width: 100%;
+    }
+    .copyright_text{
+        font-size: 15px;
+    }
+}
     
